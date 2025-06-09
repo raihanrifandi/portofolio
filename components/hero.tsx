@@ -5,17 +5,7 @@ import { useEffect, useState } from "react";
 import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
-  const [scrollY, setScrollY] = useState(0);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollY(window.scrollY);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
+  
   return (
     <section className="relative container mx-auto px-6 py-32 text-center z-10">
       {/* Background Elements */}
