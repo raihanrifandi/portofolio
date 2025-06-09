@@ -1,7 +1,6 @@
 import Header from "@/components/header"
 import Hero from "@/components/hero"
 import TugasTimeline from "@/components/daftartugas";
-import Link from 'next/link';
 
 export default function Home() {
   return (
